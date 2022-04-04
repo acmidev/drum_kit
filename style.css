@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./background.jpg);
+    width: 100vw;
+    height:100vh;
+    overflow: hidden;
+    
+}
+
+
+.container {
+    display: flex;
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.key {
+    color: white;
+    text-align: center;
+    background-color: rgba(71, 71, 71, 0.795);
+    width: 80px;
+    height: 80px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    border: 3px solid yellow;
+    border-radius: 20px;
+    transition: all 0.07s;
+}
+
+.key  p:first-child {
+    font-size:30px;
+    margin: 0;
+    margin-top:10px
+}
+
+.playing {
+    transform:scale(1.1);
+}
